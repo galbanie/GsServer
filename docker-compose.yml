@@ -50,7 +50,7 @@ mysql:
   volumes:
     - mysqldata:/var/lib/mysql
   environment:
-    MYSQL_ROOT_PASSWORD: "carole225"
+    MYSQL_ROOT_PASSWORD: "root"
 
 adminer:
   image: adminer
